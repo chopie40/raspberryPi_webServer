@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="fr-ca">
 <head>
-    <title>GatineauÉlectro | Réparation d'ordinateurs et d'équipements électroniques à Gatineau et Ottawa</title>
+    <title>Gatineauï¿½lectro | Rï¿½paration d'ordinateurs et d'ï¿½quipements ï¿½lectroniques ï¿½ Gatineau et Ottawa</title>
 	<meta charset="UTF-8">	
 	<link rel="icon" type="image/x-icon" href="images/tape_32x32.ico">
 	<meta name="viewport" content="initial-scale=1, width=device-width">
-	<meta name="keywords" content="gatineauelectro, réparation, dépannage, remise à neuf, diagnostic, électronique, ordinateur, portable, condensateur, radio, am, fm, téléphone, cellulaire, cassette, lecteur, cd, cd-rom, dvd, blue-ray, magnétoscope, vhs, télévision, écran, cathodique, téléviseur, smart tv, lcd, robotique, programmation">
-	<meta name="description" content="Réparation d'ordinateurs et d'équipements électroniques de confiance à Gatineau et Ottawa.">
+	<meta name="keywords" content="gatineauelectro, rï¿½paration, dï¿½pannage, remise ï¿½ neuf, diagnostic, ï¿½lectronique, ordinateur, portable, condensateur, radio, am, fm, tï¿½lï¿½phone, cellulaire, cassette, lecteur, cd, cd-rom, dvd, blue-ray, magnï¿½toscope, vhs, tï¿½lï¿½vision, ï¿½cran, cathodique, tï¿½lï¿½viseur, smart tv, lcd, robotique, programmation">
+	<meta name="description" content="Rï¿½paration d'ordinateurs et d'ï¿½quipements ï¿½lectroniques de confiance ï¿½ Gatineau et Ottawa.">
 	<link rel="stylesheet" href="styles.css">
 	<link rel="stylesheet" href="w3.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -20,13 +20,13 @@
     <div class="w3-top">
         <div class="w3-bar w3-black">
             <a href="index.php" class="w3-bar-item">
-                <img src="images/LogoTape_32x32.png" alt="Logo du site web représentant une cassette audio.">
+                <img src="images/LogoTape_32x32.png" alt="Logo du site web reprï¿½sentant une cassette audio.">
             </a>
             <div class="w3-right w3-hide-small">
-                <a href="about.html" class="w3-bar-item">À propos</a>
+                <a href="about.html" class="w3-bar-item">ï¿½ propos</a>
                 <a href="work.html" class="w3-bar-item">Les projets</a>
-                <a href="video.html" class="w3-bar-item">Vidéothèque</a>
-                <a href="reservation.html" class="w3-bar-item">Réservation</a>
+                <a href="video.html" class="w3-bar-item">Vidï¿½othï¿½que</a>
+                <a href="reservation.html" class="w3-bar-item">Rï¿½servation</a>
             </div>
             <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
                 <i class="fa fa-bars"></i>
@@ -36,16 +36,16 @@
 
     <nav class="w3-sidebar w3-bar-block w3-black w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
         <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-padding-16">X</a>
-        <a href="about.html" onclick="w3_close()" class="w3-bar-item w3-button">À propos</a>
+        <a href="about.html" onclick="w3_close()" class="w3-bar-item w3-button">ï¿½ propos</a>
         <a href="work.html" onclick="w3_close()" class="w3-bar-item w3-button">Les projets</a>
-        <a href="video.html" onclick="w3_close()" class="w3-bar-item w3-button">Vidéothèque</a>
+        <a href="video.html" onclick="w3_close()" class="w3-bar-item w3-button">Vidï¿½othï¿½que</a>
         <a href="reservation.html" onclick="w3_close()" class="w3-bar-item w3-button">Prise de rendez-vous</a>
     </nav>
 
     <!-- Header with full-height image -->
     <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
         <div class="w3-display-left w3-text-sand" style="padding:32px">
-            <span class="w3-xxxlarge">Réparation d'ordinateurs et d'équipements électroniques à Gatineau et Ottawa</span><br>
+            <span class="w3-xxxlarge">Rï¿½paration d'ordinateurs et d'ï¿½quipements ï¿½lectroniques ï¿½ Gatineau et Ottawa</span><br>
             <span class="w3-xlarge">Vous souhaitez en savoir plus</span>
             <p>
                 <a href="about.html" class="w3-button w3-gray w3-padding-large w3-large w3-margin-top">
@@ -61,7 +61,7 @@
             <a class="fa fa-facebook" href="https://www.facebook.com/profile.php?id=723906274141004" target="_blank"></a>
             <a class="fa fa-whatsapp" href="https://wa.me/message/SKTYI5LDWAADL1" target="_blank"></a>
         </div>
-        <p>2025<br>Développé par DentedDiamond et Nympha</p>
+        <p>2025<br>Dï¿½veloppï¿½ par DentedDiamond et Nympha</p>
     </footer>
 	<script src="sideBar.js"></script>
 </body>
