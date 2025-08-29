@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+<html lang="fr-ca">
+<head>
+    <title>GatineauÉlectro | Les projets</title>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="images/tape_32x32.ico">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    .w3-bar .w3-button {
+        padding: 16px;
+    }
+    </style>
+</head>
+
+<body>
+    <button onclick="topFunction()" id="topBtn" title="Haut de page">Haut</button>
+    <div class="w3-top">
+        <div class="w3-bar w3-black">
+            <a href="index.html" class="w3-bar-item">
+                <img src="images/LogoTape_32x32.png" alt="Logo du site web représentant une cassette audio.">
+            </a>
+            <div class="w3-right w3-hide-small">
+                <a href="about.html" class="w3-bar-item">À propos</a>
+                <a href="work.html" class="w3-bar-item">Les projets</a>
+                <a href="video.html" class="w3-bar-item">Vidéothèque</a>
+                <a href="reservation.html" class="w3-bar-item">Réservation</a>
+            </div>
+            <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </div>
+    <nav class="w3-sidebar w3-bar-block w3-black w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+        <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-padding-16">X</a>
+        <a href="about.html" onclick="w3_close()" class="w3-bar-item w3-button">À propos</a>
+        <a href="work.html" onclick="w3_close()" class="w3-bar-item w3-button">Les projets</a>
+        <a href="video.html" onclick="w3_close()" class="w3-bar-item w3-button">Vidéothèque</a>
+        <a href="reservation.html" onclick="w3_close()" class="w3-bar-item w3-button">Prise de rendez-vous</a>
+    </nav>
+
+    <!-- Section Les projets -->
+    <section class="w3-container w3-text-sand w3-margin-bottom w3-padding-top-32" id="work">
+        <h1 class="w3-center w3-margin-bottom w3-padding-16">Exemples de projets réalisés</h1>
+        <h2>Toyota Matrix 2010 - Swap de moteur et refillage</h2>
+        <article class="w3-row-padding w3-margin-bottom w3-padding-16">
+            <div class="w3-third">
+                <h3>2010 Toyota Matrix changement de moteur - Boîte à fusible</h3>
+                <img class="w3-image" src="images/Matrix_1.jpg" onclick="onClick(this)" alt="La couette de fils du moteur 2,4 L diffère de celle du 1,8 L, donc j’ai effectué la mise à niveau.">
+            </div>
+            <div class="w3-third">
+                <h3>2010 Toyota Matrix changement de moteur - PCM</h3>
+                <img class="w3-image" src="images/Matrix_3.jpg" onclick="onClick(this)" alt="L’ordinateur qui contrôle le fonctionnement du moteur s’avère incompatible d’un modèle à l’autre.">
+            </div>
+            <div class="w3-third">
+                <h3>2010 Toyota Matrix changement de moteur - Nouveau moteur</h3>
+                <img class="w3-image" src="images/Matrix_9.jpg" onclick="onClick(this)" alt="Le secret d’un travail bien fait consiste à rester ordonné et à respecter la procédure.">
+            </div>
+            <div class="w3-third">
+                <h3>2010 Toyota Matrix changement de moteur - Routage du fillage</h3>
+                <img class="w3-image" src="images/Matrix_13.jpg" onclick="onClick(this)" alt="On doit procéder à un routage optimal de la couette de fil, en raison de la chaleur dégagée par le moteur.">
+            </div>
+        </article>
+        <h2>Divers projets d'électronique du temps du cégep</h2>
+        <article class="w3-row-padding w3-margin-bottom w3-padding-16">
+            <div class="w3-third">
+                <h3>Capteurs de luminosité contrôlant des dels</h3>
+                <img class="w3-image" src="images/CapteurON.jpg" onclick="onClick(this)" alt="Capteurs photorésistants qui contrôlent des diodes électroluminescentes, ça simule une veilleuse en fait.">
+            </div>
+            <div class="w3-third">
+                <h3>Changement d'état du signaux des capteurs</h3>
+                <img class="w3-image" src="images/SignalTektronic.jpg" onclick="onClick(this)" alt="Affichage à l’oscilloscope de la transition du signal électrique. Lorsque la clarté diminue, le courant dans le capteur change et dépasser un certain niveau cela enclenche l’éclairage de la del.">
+            </div>
+            <div class="w3-third">
+                <h3>Serrure séquentielle avec compteur de mauvaises touches</h3>
+                <img class="w3-image" src="images/Serrure.jpg" onclick="onClick(this)" alt="C’est le circuit d’une serrure séquentielle avec un compteur de mauvaises touches et RAZ.">
+            </div>
+        </article>
+    </section>
+
+    <!-- Modal for full size images on click-->
+    <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+        <span class="w3-button w3-xlarge w3-black w3-padding-large w3-display-topright" title="Fermé">X</span>
+        <div class="w3-modal-content w3-center w3-transparent w3-padding-64">
+            <img id="img01" class="w3-image">
+            <p id="caption" class="w3-large"></p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-container w3-center w3-black w3-padding-top-24">
+        <div>
+            <a class="fa fa-facebook" href="https://www.facebook.com/profile.php?id=723906274141004" target="_blank"></a>
+            <a class="fa fa-whatsapp" href="https://wa.me/message/SKTYI5LDWAADL1" target="_blank"></a>
+        </div>
+        <p>2025<br>Développé par DentedDiamond et Nympha</p>
+    </footer>
+    <script src="sideBar.js"></script>
+    <script src="topBtn.js"></script>
+    <script src="modalPics.js"></script>
+</body>
+</html>
